@@ -1,4 +1,4 @@
-# Startpage
+# homepage
 
 ![screenshot of start page](./homepage.png)
 
