@@ -21,17 +21,19 @@
 html, body {
 	background: var(--color-bg);
 	color: var(--color-fg);
-	font-family: "CozetteVector";
-	/* font-family: "monospace"; */
-	height: 100%;
-	width: 100%;
-	margin: 0;
+	/* font-family: "CozetteVector"; */
+	font-family: "monospace";
+	height: 90%;
+	width: 60%;
+	margin-right: 20%;
+	margin-left: 20%;
 	padding: 0;
 }
 
 img {
-	padding-top: 32px;
-	max-height: 400px;
+	padding: 40px 0px 40px 0px;
+	max-height: 512px;
+	/* width: 100%; */
 }
 
 .category, #bookmarks, .links {
@@ -41,13 +43,13 @@ img {
 	align-items: center;
 }
 
-.category {
-	width: 25%;
-}
+/* .category { */
+/* 	width: 25%; */
+/* } */
 
 .links {
 	flex-direction: column;
-	padding: 20px;
+	padding: 0px 20px 20px 20px;
 }
 
 .title {
@@ -59,6 +61,17 @@ li {
 	font-size: 16px;
 	list-style-type: none;
 	padding: 5px
+}
+
+h1 {
+	margin-bottom: 0px;
+	font-size: 48px;
+}
+
+h2 {
+	font-size: 36px;
+	/* padding-bottom: 0px; */
+	margin: 0px;
 }
 
 a:link {
